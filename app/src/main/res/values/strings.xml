@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Helpline Bangladesh</string>
+    <string name="welcome">Welcome to Hotline Bangladesh </string>
+    <string name="language">Choose your Language</string>
+    <string name="Bangla">জরুরী করোনাভাইরাস হটলাইন</string>
+    <string name="covidBtnText">Contact for coronavirus prevention</string>
+    <string name="covidText">Emergency Coronavirus Hotline</string>
+    <string name="aboutUsText">Hotline Bangladesh is a call book Android App.we collected all the numbers from the government website.
+        This is our first project. We are trying to work on some more important projects.  Which will always help us in our daily lives.
+        Next project: Next project is a sensor based location tracking apps, which will contribute a little bit to reduce the criminal activities in our
+        country.  It will play an importantrole not only in our country but in any other country.  In particular, it will help the administration in curbing crime.</string>
+    <string name="aboutme">Habib is a Professional Web and Android Apps Developer from Dresden, Germany. He is also a Tec.Entrepreneur in Bangladesh.He enjoy turning complex problems into simple, beautiful and intuitive interface designs. When he is not coding or pushing Pixel, you\'ll find him in the Music and in Music</string>
+
+</resources>

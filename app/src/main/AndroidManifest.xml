@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xdarssoftco.hotlinebd">
+
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivityCovidVaccine" />
+        <activity android:name="com.xdarssoftco.hotlinebd.coronaUpdate_eng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.coronaUpdate_bng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.AboutUs" />
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivity_Covid_Eng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivity_Covid_Bng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivity_eng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivity_bng" />
+        <activity android:name="com.xdarssoftco.hotlinebd.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
